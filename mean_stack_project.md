@@ -21,7 +21,7 @@ node.js is a javascript runtime built on chrme's V8 javascript engine. node.js i
 
     sudo apt install -y nodejs
 
-[alt text](https://github.com/techbeast911/mean_stack_deployment/blob/main/img/Screenshot%202024-06-05%20145735.png)
+![alt text](https://github.com/techbeast911/mean_stack_deployment/blob/main/img/Screenshot%202024-06-05%20145735.png)
 
 
 
@@ -63,7 +63,7 @@ Verify installation:
 
 mongodb failed to start.
 
-[alt text](https://github.com/techbeast911/mean_stack_deployment/blob/main/img/Screenshot%202024-06-07%20113053.png)
+![alt text](https://github.com/techbeast911/mean_stack_deployment/blob/main/img/Screenshot%202024-06-07%20113053.png)
 
 
 #### solution
@@ -90,7 +90,7 @@ Add the following content to the file:
     [Install]
     WantedBy=multi-user.target
 
-[alt text](https://github.com/techbeast911/mean_stack_deployment/blob/main/img/Screenshot%202024-06-07%20114917.png)
+![alt text](https://github.com/techbeast911/mean_stack_deployment/blob/main/img/Screenshot%202024-06-07%20114917.png)
 
 
 Save and close the file (Ctrl+O, Enter, Ctrl+X for nano).
@@ -104,13 +104,13 @@ Enable and start the MongoDB service:
     sudo systemctl enable mongodb
     sudo systemctl start mongodb
 
-[alt text](https://github.com/techbeast911/mean_stack_deployment/blob/main/img/Screenshot%202024-06-07%20115018.png)
+![alt text](https://github.com/techbeast911/mean_stack_deployment/blob/main/img/Screenshot%202024-06-07%20115018.png)
 
 Check the status of the MongoDB service:
 
     sudo systemctl status mongodb
 
-[alt text](https://github.com/techbeast911/mean_stack_deployment/blob/main/img/Screenshot%202024-06-07%20115146.png)
+![alt text](https://github.com/techbeast911/mean_stack_deployment/blob/main/img/Screenshot%202024-06-07%20115146.png)
 
 install [npm] nodepackage manager(https://www.npmjs.com)
 
@@ -133,7 +133,7 @@ in the books directory initialize npm project
 
     npm init
 
-[alt text](https://github.com/techbeast911/mean_stack_deployment/blob/main/img/Screenshot%202024-06-07%20120634.png)
+![alt text](https://github.com/techbeast911/mean_stack_deployment/blob/main/img/Screenshot%202024-06-07%20120634.png)
 
 add a file to it called server.js
 
@@ -219,7 +219,7 @@ paste code into routes.js
     };
 
 
-[alt text](https://github.com/techbeast911/mean_stack_deployment/blob/main/img/Screenshot%202024-06-08%20092012.png)
+![alt text](https://github.com/techbeast911/mean_stack_deployment/blob/main/img/Screenshot%202024-06-08%20092012.png)
 
 in the apps folder create a folder named models and cd into it
 
@@ -325,7 +325,7 @@ paste code below into script.js file
     });
 
 
-[alt text](https://github.com/techbeast911/mean_stack_deployment/blob/main/img/Screenshot%202024-06-08%20093615.png)
+![alt text](https://github.com/techbeast911/mean_stack_deployment/blob/main/img/Screenshot%202024-06-08%20093615.png)
 
 in the public folder create a file called index.html
 
@@ -384,7 +384,7 @@ paste code below
     </body>
     </html>
 
-[alt text](https://github.com/techbeast911/mean_stack_deployment/blob/main/img/Screenshot%202024-06-08%20094035.png)
+![alt text](https://github.com/techbeast911/mean_stack_deployment/blob/main/img/Screenshot%202024-06-08%20094035.png)
 
 change directory back to books 
 
@@ -396,5 +396,5 @@ start server by running command
 
     node server.js
 
-[alt text](https://github.com/techbeast911/mean_stack_deployment/blob/main/img/Screenshot%202024-06-08%20100434.png)
+![alt text](https://github.com/techbeast911/mean_stack_deployment/blob/main/img/Screenshot%202024-06-08%20100434.png)
 
